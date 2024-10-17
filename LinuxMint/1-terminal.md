@@ -77,4 +77,5 @@
 - **`Ctrl + Alt + F1`**: Acessar TTY (Terminal de Texto) para usuários diferentes na mesma máquina ao mesmo tempo(F1-F12).
 - **`Ctrl + Alt + F7`**: Retornar ao ambiente gráfico padrão.
 - **`Ctrl + D`**: Sair de uma aplicação.
+- **`Ctrl + alt + Backspace`**: Reinicia apenas o ambiente grafico.
 - **`Tab`**: Completa o restante do comando.
