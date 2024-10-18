@@ -35,18 +35,18 @@
 
 - **`sudo`**: Executa comandos como superusuário (modo ADM).
 - **`sudo apt`**: Usado para atualizar e instalar programas:
-  - **`sudo apt install <pacote>`**: Instala um pacote específico.
-  - **`sudo apt update`**: Atualiza a lista de pacotes disponíveis.
-  - **`sudo apt upgrade`**: Atualiza todos os pacotes instalados.
-  - **`sudo apt full-upgrade`**: Força a atualização completa do sistema.
-  - **`sudo apt dist-upgrade`**: Força a atualização do kernel (sistema operacional).
-  - **`sudo apt autoremove`**: Checar Softweres desnecessarios e remover.
-  - **`sudo apt autoclean`**: Limpar o Cache do apt
-  - **`sudo dpkg -i <pacote.deb>`**: Instala um programa baixado pelo navegador.
-  - **`mkdir <nome_da_pasta>`**: Cria uma nova pasta.
-  - **`rmdir <nome_da_pasta>`**: Remove uma pasta (apenas se estiver vazia).
-  - **`rm <nome_do_arquivo>`**: Remove arquivos.
-  - **`rm -r <nome_da_pasta>`**: Remove uma pasta e todo o seu conteúdo.
+- **`sudo apt install <pacote>`**: Instala um ou mais pacotes específicos que você deseja baixar. É possível listar vários pacotes na mesma linha, separando-os por espaços.
+- **`sudo apt update`**: Atualiza a lista de pacotes disponíveis.
+- **`sudo apt upgrade`**: Atualiza todos os pacotes instalados.
+- **`sudo apt full-upgrade`**: Força a atualização completa do sistema.
+- **`sudo apt dist-upgrade`**: Força a atualização do kernel (sistema operacional).
+- **`sudo apt autoremove`**: Checar Softweres desnecessarios e remover.
+- **`sudo apt autoclean`**: Limpar o Cache do apt
+- **`sudo dpkg -i <pacote.deb>`**: Instala um programa baixado pelo navegador.
+- **`mkdir <nome_da_pasta>`**: Cria uma nova pasta.
+- **`rmdir <nome_da_pasta>`**: Remove uma pasta (apenas se estiver vazia).
+- **`rm <nome_do_arquivo>`**: Remove arquivos.
+- **`rm -r <nome_da_pasta>`**: Remove uma pasta e todo o seu conteúdo.
 
 ---
 
