@@ -52,6 +52,7 @@
 
 ## Comandos Úteis
 - **`sudo reboot`**: Reiniciar a maquina
+- **`sudo poweroff`**: Desligar a maquina
 - **`whoami`**: Exibe o nome do usuário atual.
 - **`clear`**: Limpa a tela do terminal (ou `CTRL + L`).
 - **`pwd`**: Mostra o caminho do diretório atual.
