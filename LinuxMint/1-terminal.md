@@ -56,8 +56,6 @@ ________________________________________________________________________________
 | `pwd`                             | Mostra o caminho completo do diretório atual(Sua Localização).                                         |
 | `mkdir <nome_da_pasta>`           | Cria uma nova pasta.                                                                                   |
 | `rmdir <nome_da_pasta>`           | Remove uma pasta (somente se estiver vazia).                                                           |
-| `rm <nome_do_arquivo>`            | Remove arquivos.                                                                                       |
-| `rm -r <nome_da_pasta>`           | Remove uma pasta e todo o seu conteúdo.                                                                |
 ______________________________________________________________________________________________________________________________________________
 
 <div align="center">
@@ -94,11 +92,12 @@ ________________________________________________________________________________
 | `clear`                          | Limpa a tela do terminal (ou `CTRL + L`).                                                               |
 | `touch ''nome_do_arquivo''`      | Cria um arquivo vazio. Exemplo: `touch paulo.txt`.(Originalmente feito para alterar data e hora)        |
 | `echo <nome_do_arquivo.txt>`     | Cria um arquivo . Exemplo: `echo <paulo.txt`.                                                           |
-| `nano <nome_do_arquivo>`         | Abre um arquivo para edição no editor de texto `nano`.                                                  |
 | `cat <nome_do_arquivo>`          | Exibe o conteúdo de um arquivo no terminal.                                                             |
 | `<comando> --help`               | Exibe informações de ajuda sobre o comando. Exemplo: `sudo --help`.                                     |
 | `man <comando>`                  | Exibe informações do Manual sobre o comando. Exemplo: `man sudo`.                                       |
 | `history`                        | Mostra o histórico de comandos utilizados.                                                              |
+| `<comando> && <comando>`         | Executa um comando apos o outro caso o 1 comando seja bem sucessido.`                                   |
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 <div align="center">
@@ -108,12 +107,13 @@ ________________________________________________________________________________
 </div>
 
 _____________________________________________________________________________________________________________________________________
-| Atalhos                      | O QUE ELE FAZ                                                                                      |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------|
+| Atalhos                      | O QUE ELE FAZ                                                                                     |
+| ---------------------------- | --------------------------------------------------------------------------------------------------|
 | **`Shift + CTRL + V`**       | Copiar texto no terminal.                                                                         |
 | **`Ctrl + Alt + F1`**        | Acessar TTY (Terminal de Texto) para usuários diferentes na mesma máquina ao mesmo tempo (F1-F12).|
 | **`Ctrl + Alt + F7`**        | Retornar ao ambiente gráfico padrão.                                                              |
 | **`Ctrl + D`**               | Sair de uma aplicação.                                                                            |
+| **`Ctrl + C`**               | Cancela o Comando em Execução.                                                                    |
 | **`Ctrl + Alt + Backspace`** | Reinicia apenas o ambiente gráfico.                                                               |
 | **`Tab`**                    | Completa o restante do comando.                                                                   |
 _____________________________________________________________________________________________________________________________________
@@ -131,8 +131,34 @@ ________________________________________________________________________________
 | `git config --global user.name "NOME"`  | Para mostrar o nome de quem editou o arquivo           |
 | `git config --global user.email "email"`| Para permitir que você ou alguem a editar o Github     |
 | `git config --list`                     | Mostra lista de configurações aplicadas                |
+____________________________________________________________________________________________________
 
 <div align="center">
+
+
+
+# Comandos de manipulação de arquivo
+</div>
+
+
+______________________________________________________________________________________________________________________________
+| COMANDO                      | O QUE ELE FAZ                                                                   |
+| --------------------------- | -------------------------------------------------------------------------------- |
+| `head -n <número> <arquivo>`| Exibe as primeiras `n` linhas de um arquivo. Exemplo: `head -n 5 arquivo.txt`   |
+| `tail -n <número> <arquivo>`| Exibe as últimas `n` linhas de um arquivo. Exemplo: `tail -n 10 arquivo.txt`    |
+| `cat <arquivo>`             | Mostra o conteúdo de um arquivo. Exemplo: `cat arquivo.txt`                     |
+| `cat -n <arquivo>`          | Mostra o conteúdo com número de linhas. Exemplo: `cat -n arquivo.txt`           |
+| `echo "texto" > <arquivo>`  | Substitui o conteúdo do arquivo com o texto fornecido. Exemplo: `echo "Olá" > arquivo.txt` |
+| `echo "texto" >> <arquivo>` | Anexa o texto fornecido ao final do arquivo. Exemplo: `echo "Mais uma linha" >> arquivo.txt` |
+| `less <arquivo>`            | Permite visualizar o conteúdo de um arquivo em páginas, com navegação. Exemplo: `less arquivo.txt` |
+| `cp <origem> <destino>`     | Copia arquivos ou diretórios de um local para outro. Exemplo: `cp arquivo.txt /pasta/` |
+| `cp * <destino>`            | Copia todos os arquivos do diretório atual para o destino especificado. Exemplo: `cp * /pasta/` |
+| `mv <origem> <destino>`     | Move ou renomeia arquivos ou diretórios. Exemplo: `mv arquivo.txt /pasta/`. Pode também sobrescrever arquivos existentes sem aviso. |
+| `rm <nome_do_arquivo>`            | Remove arquivos.                                                                                       |
+| `rm -r <nome_da_pasta>`           | Remove uma pasta e todo o seu conteúdo.                                                                |
+| `nano <nome_do_arquivo>`         | Abre um arquivo para edição no editor de texto `nano`.                                                  |
+______________________________________________________________________________________________________________________________
+
 
 # Conhecimentos Do Terminal
 
