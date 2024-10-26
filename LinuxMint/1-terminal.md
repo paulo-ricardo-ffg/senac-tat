@@ -131,6 +131,13 @@ ________________________________________________________________________________
 | `git config --global user.name "NOME"`  | Para mostrar o nome de quem editou o arquivo           |
 | `git config --global user.email "email"`| Para permitir que você ou alguem a editar o Github     |
 | `git config --list`                     | Mostra lista de configurações aplicadas                |
+| `git push`                              | Envia as mudanças do repositório local para o GitHub (requer login, senha ou token).                               |
+| `git pull`                              | Baixa as mudanças do repositório no GitHub para o repositório local.                                               |
+| `git status`                            | Mostra as modificações feitas nos arquivos do repositório local.                                                   |
+| `git add .`                             | Seleciona todos os arquivos editados para o próximo commit.                                                        |
+| `git commit -m "descrição"`             | Confirma as mudanças com uma descrição.                                                                            |
+| `git show`                              | Exibe detalhes das últimas atividades feitas no repositório local.                                                 |
+| `git log`                               | Mostra o histórico completo das atividades no repositório local, com mais detalhes.                                |
 ____________________________________________________________________________________________________
 
 <div align="center">
