@@ -1,1 +1,2 @@
-teste teste teste
+# Testando o uso dos comandos GIT
+
