@@ -138,7 +138,12 @@ ________________________________________________________________________________
 | `git commit -m "descrição"`             | Confirma as mudanças com uma descrição.                                                                            |
 | `git show`                              | Exibe detalhes das últimas atividades feitas no repositório local.                                                 |
 | `git log`                               | Mostra o histórico completo das atividades no repositório local, com mais detalhes.                                |
+### [Exemplo de uso](https://github.com/paulo-ricardo-ffg/senac-tat/blob/main/LinuxMint/5-%20Usando%20o%20Git.md)
+
 ____________________________________________________________________________________________________
+
+
+
 
 <div align="center">
 
