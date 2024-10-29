@@ -1,5 +1,35 @@
 # Histórico de Comandos Aula 29/10/2024
 
+# Estrutura de Diretórios
+
+```plaintext
+[4.0K]  PauloRicardo/
+├── [4.0K]  SENAI
+│   ├── [4.0K]  BRA
+│   │   ├── [4.0K]  Fresagem
+│   │   │   └── [  26]  cal_dez_2024.txt
+│   │   ├── [4.0K]  Soldagem
+│   │   │   └── [  27]  cal_jan_2025.txt
+│   │   └── [4.0K]  Tornearia
+│   │       └── [  26]  cal_nov_2024.txt
+│   ├── [4.0K]  GUA
+│   │   └── [4.0K]  Eletricista
+│   │       └── [  26]  cal_jan_2025.txt
+│   ├── [4.0K]  PJS
+│   │   └── [4.0K]  Empilhadeira
+│   │       └── [  26]  cal_jan_2025.sh
+│   └── [4.0K]  TAT
+│       └── [4.0K]  Drywall
+│           └── [  26]  cal_nov_2024.md
+└── [4.0K]  SESC
+    ├── [4.0K]  BEL
+    │   └── [  39]  danca.txt
+    ├── [4.0K]  ITA
+    │   └── [  54]  capoeira.sh
+    └── [4.0K]  SAN
+        └── [  30]  natacao.md
+
+
 1. `mkdir PauloRicardo`
 2. `ls`
 3. `cd P`
