@@ -1,8 +1,8 @@
-# Histórico de Comandos Aula 29/10/2024
+![image](https://github.com/user-attachments/assets/d8cb8c51-d773-45ca-9c06-701c839e09bd)# Histórico de Comandos Aula 29/10/2024
 
 # Estrutura de Diretórios
 
-![tree](https://github.com/paulo-ricardo-ffg/senac-tat/blob/main/LinuxMint/imagens/tree.PNG?raw=true)
+![tree](https://github.com/paulo-ricardo-ffg/senac-tat/blob/main/img/02_tree.png?raw=true)
 
 
 1. `mkdir PauloRicardo`
