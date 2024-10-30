@@ -56,6 +56,7 @@ ________________________________________________________________________________
 | `pwd`                             | Mostra o caminho completo do diretório atual(Sua Localização).                                         |
 | `mkdir <nome_da_pasta>`           | Cria uma nova pasta.                                                                                   |
 | `rmdir <nome_da_pasta>`           | Remove uma pasta (somente se estiver vazia).                                                           |
+| `tree -lh <nome_da_pasta>`         | Mostra a contrução da pasta.                                                                           |
 ______________________________________________________________________________________________________________________________________________
 
 <div align="center">
