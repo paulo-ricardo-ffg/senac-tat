@@ -1,0 +1,385 @@
+    1  sudo
+    2  sudo -i
+    3  sudo apt update
+    4  sudo apt full-upgrade 
+    5  sudo apt dist-upgrade 
+    6  sudo apt autoremove 
+    7  history 
+    8  [200~sudo apt install~
+    9  sudo apt update
+   10  sudo apt install git vim kolourpaint
+   11  sudo apt autoremove 
+   12  sudo apt autoclean 
+   13  sudo apt autoremove 
+   14  history
+   15  sudo poweroff 
+   16  sudo apt upgrade
+   17  sudo apt full-upgrade
+   18  sudo apt update
+   19  sudo apt upgrade 
+   20  cd
+   21  ls
+   22  pwd
+   23  ls
+   24  ls help
+   25  ls
+   26  ls -help
+   27  ls --help
+   28  ls --all
+   29  ls --l
+   30  ls -l
+   31  ls --
+   32  ls -lh
+   33  ls -l
+   34  ls -lha
+   35  cs
+   36  cd
+   37  ls
+   38  cd /
+   39  ls
+   40  ls -lha
+   41  cd
+   42  ls
+   43  cd Área\ de\ Trabalho/
+   44  ls
+   45  cd /
+   46  cd /home/
+   47  ls
+   48  cd /~
+   49  cd ~
+   50  ls
+   51  ls -lh
+   52  mkdir
+   53  mkdir man
+   54  mkdir --help
+   55  mkdir --man
+   56  mkdir -man
+   57  man mkdir
+   58  pwd
+   59  mkdir SENAC
+   60  LS
+   61  ls
+   62  mkdir senac
+   63  ls
+   64  ls ah
+   65  ls h
+   66  ls -lha
+   67  ls
+   68  cd SENAC/
+   69  pwd
+   70  cd /
+   71  cd home/senac/SENAC/
+   72  cd ~/SENAC/
+   73  mkdir -v TAT PEN CAS
+   74  cd TAT/
+   75  mkdir -v TEI TST
+   76  ls
+   77  cd TEI/
+   78  mkdir --help
+   79  men mkdir
+   80  man mkdir
+   81  cd ..
+   82  ls
+   83  cd /home/senac/SENAC/
+   84  cd ..
+   85  cd ~/SENAC/
+   86  cd ~/SENAC/TAT/TEI/
+   87  cd../../
+   88  cd ../../PEN/
+   89  mkdir -v TEI TST
+   90  Ls -lha
+   91  ls -lha
+   92  echo
+   93  echo SENAC Tatuapé
+   94  echo "SENAC Tatuapé"
+   95  ls
+   96  echo "SENAC Tatuapé Técnico em Informatica"
+   97  echo "SENAC Tatuapé Técnico em Informatica" >texte.txt
+   98  cd TEI/
+   99  catch texte.txt 
+  100  cat texte.txt 
+  101  echo "Paulo Ricardo" >teste01.txt
+  102  cat teste01.txt 
+  103  ls -lh
+  104  touch
+  105  echo > senac.txt
+  106  ls -lh
+  107  echo Tatuapé > senac.txt
+  108  ls -lh
+  109  echo penha  > senac.txt
+  110  ls -lh
+  111  cd ~
+  112  git
+  113  git clone https://github.com/paulo-ricardo-ffg/senac-tat
+  114  ls
+  115  cd senac-tat/
+  116  ls
+  117  ls -lha
+  118  cd .git/
+  119  ls
+  120  cd ..
+  121  git config --global user.name "Paulo Ricardo"
+  122  git config --global user.email leonardeffg@gmail.com
+  123  gif config --list
+  124  gif config -list
+  125  git config --list
+  126  sudo poweroff 
+  127  sudo apt update
+  128  sudo apt upgrade
+  129  sudo apt autoclean 
+  130  sudo apt autoremove 
+  131  sudo apt --help 
+  132  sudo apt full-upgrade 
+  133  sudo apt reinstall 
+  134  sudo apt autoclean 
+  135  ls
+  136  sudo apt upgrade 
+  137  cd
+  138  cd SENAC/
+  139  cd TAT/
+  140  ls
+  141  cd TEI/
+  142  ls
+  143  touch senac.txt senai.txt sesc.txt
+  144  cd ..
+  145  ls
+  146  cd TST/
+  147  touch senac.txt senai.txt sesc.txt
+  148  cd ..
+  149  ls 
+  150  ls
+  151  cd TAT/
+  152  cd TST/
+  153  ls
+  154  cd ..
+  155  cd TEI/
+  156  ls
+  157  ls -lha
+  158  cat sena
+  159  cat senac.txt 
+  160  ls
+  161  nano senac.txt 
+  162  ls
+  163  echo ''Tatuapé'' > senac.txt 
+  164  echo ''Tatuapé'' > senai.txt 
+  165  echo ''Guarulhos'' > senai.txt 
+  166  echo ''Santana'' > sesc.txt 
+  167  ls
+  168  ls -lha
+  169  echo "Tatuapé" > sei.txt 
+  170  ls -lh
+  171  echo ''Guarulhos'' > senai.txt 
+  172  ls -lh
+  173  cat senai.txt 
+  174  cat sesc.txt 
+  175  cat -n sesc.txt 
+  176  echo "Vila Maria"  > senai.txt 
+  177  cat -n senai.txt 
+  178  echo "Itaquera" > > senai.txt 
+  179  echo "Itaquera" >> senai.txt 
+  180  cat -m senai.txt 
+  181  cat -n senai.txt 
+  182  echo "Brás" >> senai.txt 
+  183  cat -n senai.txt 
+  184  tac senai.txt 
+  185  cat -n senai.txt 
+  186  cat -n senai.txt | tac
+  187  tail -n senai.txt 
+  188  tail /etc/services 
+  189  head /etc/services 
+  190  cat -n senai.txt 
+  191  cat -n /etc/services 
+  192  tail-n 3 /etc/services 
+  193  tai l-n 3 /etc/services 
+  194  tail -n 3 /etc/services 
+  195  head -n 3 /etc/services 
+  196  head -n 3 /etc/services | cat -n
+  197  cat -n /etc/services | tail -n100 | head -n 200
+  198  cat -n /etc/services | head -n 100 | tail -n 200
+  199  cat -n /etc/services | head -n 200 | tail -n 200
+  200  cat -n /etc/services | head -n 99 | tail -n 200
+  201  cat -n /etc/services | head -n 200 | tail -n 100
+  202  cat -n /etc/services | head -n 200 | tail -n 101
+  203  cat -n /etc/services | head -n 200 | tail -n 101 | less
+  204  cat -n /etc/services | head -n 200 | tail -n 101 | less > vava.txt
+  205  ls -lh
+  206  cat -n vava.txt 
+  207  less vava.txt 
+  208  cp vava.txt ramos.txt
+  209  ls
+  210  cp -v ramos.txt senai.txt 
+  211  ls
+  212  ls -lh ../
+  213  ls -lh ../../
+  214  cp vava.txt ../../PEN/
+  215  sl -lh ../../PEN/
+  216  lS -lh ../../PEN/
+  217  ls -lh ../../PEN/
+  218  mkdir -v DKP
+  219  ls -lh
+  220  cp -v *.txt DKP/
+  221  mv -v vava.txt vaamonde.md
+  222  mv -v ramos.txt ../TST/leandro.md
+  223  ls -lh ../TST/leandro.md 
+  224  history
+  225  rm -v sesc.txt 
+  226  cd ..
+  227  rm -v TEI
+  228  rm -rv TST/
+  229  ls
+  230  sudo apt update
+  231  sudo apt upgrade 
+  232  ls
+  233  cd senac-tat/
+  234  ls
+  235  git pull
+  236  ls
+  237  cd ..
+  238  mkdir PauloRicardo
+  239  ls
+  240  cd P
+  241  cd PauloRicardo/
+  242  ls
+  243  mkdir BEL
+  244  ls
+  245  cd BEL/
+  246  ls
+  247  nano danca.txt
+  248  ls
+  249  cd ..
+  250  mkdir SAN
+  251  ls
+  252  cd SAN/
+  253  ls
+  254  nano natacao.md
+  255  cd ..
+  256  ls
+  257  mkdir SESC
+  258  mv BEL/ SESC/
+  259  LS
+  260  ls
+  261  mv SAN/ SESC/
+  262  ls
+  263  cd SESC/
+  264  ls
+  265  mkdir ITA
+  266  cd ITA/
+  267  ls
+  268  nano capoeira.sh
+  269  cd..
+  270  cd ..
+  271  ls
+  272  cd ..
+  273  mkdir SENAI
+  274  ls
+  275  cd SE
+  276  cd SENAI/
+  277  ls
+  278  mkdir BRA
+  279  cd BRA/
+  280  Ls
+  281  ls
+  282  mkdir Tornearia
+  283  cd Tornearia/
+  284  ls
+  285  nano cal_nov_2024.txt
+  286  ls
+  287  cd ..
+  288  mkdir Fresagem
+  289  cd Fresagem/
+  290  ls
+  291  nano cal_dez_2024.txt
+  292  ls
+  293  cd ..
+  294  mkdir Soldagem
+  295  cd Soldagem/
+  296  ls
+  297  nano cal_jan_2025.txt
+  298  cd ..
+  299  mkdir GUA
+  300  cd GUA/
+  301  ls
+  302  mkdir Eletricista
+  303  ls
+  304  cd Eletricista/
+  305  ls
+  306  nano cal_jan_2025.txt
+  307  ls
+  308  cd ..
+  309  mkdir TAT
+  310  cd TAT/
+  311  ls
+  312  mkdir DRYWALL
+  313  cd DRYWALL/
+  314  ls
+  315  nano cal_nov_2024.md
+  316  cd ..
+  317  mkdir PJS
+  318  cd PJS/
+  319  mkdir Empilhadeira
+  320  cd Empilhadeira/
+  321  nano cal_jan_2025.sh
+  322  cd ..
+  323  ls
+  324  cd t
+  325  cd TAT/
+  326  ls
+  327  mv DRYWALL/ Drywall]
+  328  ls
+  329  cd Drywall]/
+  330  ls
+  331  cd ..
+  332  ls
+  333  cd ..
+  334  ls
+  335  history 
+  336  cd ..
+  337  nano texto.txt
+  338  ls
+  339  rm texto.txt 
+  340  ls
+  341  tree PauloRicardo/
+  342  tree -h PauloRicardo/
+  343  sudo apt install tree
+  344  tree -h PauloRicardo/
+  345  [200~[4.0K]  PauloRicardo/
+  346  ├── [4.0K]  SENAI
+  347  │   ├── [4.0K]  BRA
+  348  │   │   ├── [4.0K]  Fresagem
+  349  │   │   │   └── [  26]  cal_dez_2024.txt
+  350  │   │   ├── [4.0K]  Soldagem
+  351  │   │   │   └── [  27]  cal_jan_2025.txt
+  352  │   │   └── [4.0K]  Tornearia
+  353  │   │       └── [  26]  cal_nov_2024.txt
+  354  │   ├── [4.0K]  GUA
+  355  │   │   └── [4.0K]  Eletricista
+  356  │   │       └── [  26]  cal_jan_2025.txt
+  357  │   ├── [4.0K]  PJS
+  358  │   │   └── [4.0K]  Empilhadeira
+  359  │   │       └── [  26]  cal_jan_2025.sh
+  360  │   └── [4.0K]  TAT
+  361  │       └── [4.0K]  Drywall]
+  362  │           └── [  26]  cal_nov_2024.md
+  363  └── [4.0K]  SESC
+  364  tree -lh PauloRicardo/
+  365  cd PauloRicardo/
+  366  ls
+  367  cd ..
+  368  ls
+  369  cd SENAC/
+  370  ls
+  371  cd ..
+  372  mv SENAC/ PauloRicardo/
+  373  cd PauloRicardo/
+  374  ls
+  375  tree -lh PauloRicardo/
+  376  cd ..
+  377  tree -lh PauloRicardo/
+  378  cd Imagens/
+  379  ls
+  380  mkdir img
+  381  history
+  382  history .txt
+  383  cd ..
+  384  history txt
+  385  history > comandos.txt
